@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,8 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommentService.cs" />
+<<<<<<< HEAD
     <Compile Include="Class1.cs" />
     <Compile Include="PostService.cs" />
+<<<<<<< HEAD
+=======
+=======
+    <Compile Include="PostServices.cs" />
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
+>>>>>>> origin/develop
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReplyService.cs" />
   </ItemGroup>
@@ -53,6 +61,17 @@
       <Project>{F7FF9773-4435-4C8C-953F-EC3606E983F5}</Project>
       <Name>24HourProject.Data</Name>
     </ProjectReference>
+<<<<<<< HEAD
+=======
+    <ProjectReference Include="..\24HourProject.Models\24HourProject.Models.csproj">
+<<<<<<< HEAD
+      <Project>{52A053C4-4093-4976-AA67-8C1A64D38987}</Project>
+=======
+      <Project>{52a053c4-4093-4976-aa67-8c1a64d38987}</Project>
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
+      <Name>24HourProject.Models</Name>
+    </ProjectReference>
+>>>>>>> origin/develop
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

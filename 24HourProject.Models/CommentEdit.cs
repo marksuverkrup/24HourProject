@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _24HourProject.Models
 {
-    class CommentEdit
+    public class CommentEdit
     {
+        public int Id { get; set; }
+        public string Text { get; set; }
     }
 }

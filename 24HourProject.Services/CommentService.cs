@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _24HourProject.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,9 +26,10 @@ namespace _24HourProject.Services
             var entity =
                 new Comment()
                 {
-                    AuthorId = _userId,
-                    Content = model.Content,
-                    CreatedUtc = DateTimeOffset.Now
+                    Id = _userId,
+                    Text = model.Text,
+                    AuthorId = model.Author,
+                    Replies = model./
                 };
 
             using (var ctx = new ApplicationDbContext())
@@ -90,7 +92,7 @@ namespace _24HourProject.Services
             using (var ctx = new ApplicationDbContext())
             {
                 var entity =
-                    ctx.Notes.Single(e => e.NoteId == model.NoteId && e.OwnerId == _userId);
+                    ctx.Posts.Single(e => e.NoteId == model.NoteId && e.OwnerId == _userId);
 
                 entity.Title = model.Title;
                 entity.Content = model.Content;
@@ -113,7 +115,7 @@ namespace _24HourProject.Services
                     .Notes
                     .Single(e => e.NoteId == noteId && e.OwnerId == _userId);
 
-                ctx.Notes.Remove(entity);
+                ctx.Posts.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
             }

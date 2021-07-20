@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 ﻿using _24HourProject.Data;
 using Data;
 using System;
+=======
+<<<<<<< HEAD
+﻿using _24HourProject.Data;
+using System;
+=======
+﻿using System;
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
+>>>>>>> origin/develop
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -72,6 +81,7 @@ namespace Services
         }
     }
 
+<<<<<<< HEAD
     public ReplyDetail GetReplyByAuthor(int replyauthorid)
     {
         using (var ctx = new ApplicationDbContext())
@@ -91,6 +101,8 @@ namespace Services
         }
     }
 
+=======
+>>>>>>> origin/develop
     public bool UpdateReply(ReplyEdit model)
     {
         using (var ctx = new ApplicationDbContext())
