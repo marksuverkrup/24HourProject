@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24HourProject.Data
+namespace _24HourProject.Services
 {
     public class Class1
     {
