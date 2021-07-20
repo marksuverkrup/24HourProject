@@ -11,8 +11,7 @@ namespace _24HourProject.Data
         public int Id { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
-        public List Comments { get; set; }
-        public List Likes { get; set; }
+        public virtual List<Comment> Comments { get; set; }
         public Guid AuthorId { get; set; }
     }
 }
