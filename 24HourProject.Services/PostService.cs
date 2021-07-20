@@ -1,16 +1,18 @@
-﻿using System;
+﻿using _24HourProject.Data;
+using _24HourProject.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24HourProject.Data
+namespace _24HourProject.Services
 {
-    public class PostCRUD
+    public class PostService
     {
         private readonly Guid _authorId;
 
-        public PostCRUD(Guid authorId)
+        public PostService(Guid authorId)
         {
             _authorId = authorId;
         }
@@ -20,10 +22,9 @@ namespace _24HourProject.Data
             var entity =
                 new Post()
                 {
-                    Id = model.Id,
+                    PostId = model.PostId,
                     Title = model.Title,
                     Text = model.Text,
-                    Comments = model.Comments,
                     AuthorId = _authorId
                 };
             using (var ctx = new ApplicationDbContext())
@@ -33,7 +34,7 @@ namespace _24HourProject.Data
             }
         }
 
-        public IEnumerable<PostListItem> GetPosts()
+        public IEnumerable<PostList> GetPosts()
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -43,9 +44,10 @@ namespace _24HourProject.Data
                         .Where(e => e.AuthorId == _authorId)
                         .Select(
                             e =>
-                                new PostListItem
+                                new PostList
                                 {
-                                    ?????
+                                    Title = e.Title
+                                    Text = e.Text
                                 }
                        );
                 return query.ToArray();
