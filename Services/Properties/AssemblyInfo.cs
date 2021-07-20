@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("24HourProject.Models")]
+[assembly: AssemblyTitle("Services")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("24HourProject.Models")]
+[assembly: AssemblyProduct("Services")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,8 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("52a053c4-4093-4976-aa67-8c1a64d38987")]
-[assembly: Guid("016337f5-beb3-406b-bd34-6d1942e7bc6a")]
+[assembly: Guid("5f64e1b2-3dc6-4fa1-9a4c-d2f3f7510b33")]
 
 // Version information for an assembly consists of the following four values:
 //
