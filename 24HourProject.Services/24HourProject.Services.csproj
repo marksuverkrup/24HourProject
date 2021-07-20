@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,8 +44,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommentService.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="PostServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplyService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\24HourProject.Data\24HourProject.Data.csproj">
+      <Project>{F7FF9773-4435-4C8C-953F-EC3606E983F5}</Project>
+      <Name>24HourProject.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourProject.Models\24HourProject.Models.csproj">
+      <Project>{52a053c4-4093-4976-aa67-8c1a64d38987}</Project>
+      <Name>24HourProject.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

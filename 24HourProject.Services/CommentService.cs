@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _24HourProject.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,9 +26,10 @@ namespace _24HourProject.Services
             var entity =
                 new Comment()
                 {
-                    AuthorId = _userId,
-                    Content = model.Content,
-                    CreatedUtc = DateTimeOffset.Now
+                    Id = _userId,
+                    Text = model.Text,
+                    AuthorId = model.Author,
+                    Replies = model./
                 };
 
             using (var ctx = new ApplicationDbContext())

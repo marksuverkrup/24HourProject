@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _24HourProject.Data
 {
-    public class PostCRUD
+    public class PostServices
     {
         private readonly Guid _authorId;
 
-        public PostCRUD(Guid authorId)
+        public PostServices(Guid authorId)
         {
             _authorId = authorId;
         }
@@ -45,7 +45,7 @@ namespace _24HourProject.Data
                             e =>
                                 new PostListItem
                                 {
-                                    ?????
+                                    
                                 }
                        );
                 return query.ToArray();
@@ -63,7 +63,7 @@ namespace _24HourProject.Data
                 return
                     new PostDetail
                     {
-                        ????????
+                        
                     };
             }
         }
