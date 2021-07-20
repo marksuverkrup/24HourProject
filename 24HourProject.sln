@@ -10,14 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{DAC22C3B-FE46-4503-8FB9-3703D008A181}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{5F64E1B2-3DC6-4FA1-9A4C-D2F3F7510B33}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24HourProject.Data", "24HourProject.Data\24HourProject.Data.csproj", "{F7FF9773-4435-4C8C-953F-EC3606E983F5}"
 EndProject
-
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24HourProject.Services", "24HourProject.Services\24HourProject.Services.csproj", "{5729B927-9B26-4975-AB41-7C216070FBB0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24HourProject.Models", "24HourProject.Models\24HourProject.Models.csproj", "{016337F5-BEB3-406B-BD34-6D1942E7BC6A}"
-
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24HourProject.Services", "24HourProject.Services\24HourProject.Services.csproj", "{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,20 +41,10 @@ Global
 		{F7FF9773-4435-4C8C-953F-EC3606E983F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FF9773-4435-4C8C-953F-EC3606E983F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FF9773-4435-4C8C-953F-EC3606E983F5}.Release|Any CPU.Build.0 = Release|Any CPU
-
 		{5729B927-9B26-4975-AB41-7C216070FBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5729B927-9B26-4975-AB41-7C216070FBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5729B927-9B26-4975-AB41-7C216070FBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5729B927-9B26-4975-AB41-7C216070FBB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{016337F5-BEB3-406B-BD34-6D1942E7BC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{016337F5-BEB3-406B-BD34-6D1942E7BC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{016337F5-BEB3-406B-BD34-6D1942E7BC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{016337F5-BEB3-406B-BD34-6D1942E7BC6A}.Release|Any CPU.Build.0 = Release|Any CPU
-
-		{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

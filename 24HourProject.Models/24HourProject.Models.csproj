@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{52A053C4-4093-4976-AA67-8C1A64D38987}</ProjectGuid>
-    <ProjectGuid>{016337F5-BEB3-406B-BD34-6D1942E7BC6A}</ProjectGuid>
+    <ProjectGuid>{52A053C4-4093-4976-AA67-8C1A64D38987}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_24HourProject.Models</RootNamespace>
