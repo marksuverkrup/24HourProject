@@ -309,9 +309,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\24HourProject.Data\24HourProject.Data.csproj">
+
+      <Project>{f7ff9773-4435-4c8c-953f-ec3606e983f5}</Project>
+      <Name>24HourProject.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourProject.Models\24HourProject.Models.csproj">
+      <Project>{016337f5-beb3-406b-bd34-6d1942e7bc6a}</Project>
+      <Name>24HourProject.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourProject.Services\24HourProject.Services.csproj">
+      <Project>{5729b927-9b26-4975-ab41-7c216070fbb0}</Project>
+      <Name>24HourProject.Services</Name>
+    </ProjectReference>
+
       <Project>{F7FF9773-4435-4C8C-953F-EC3606E983F5}</Project>
       <Name>24HourProject.Data</Name>
     </ProjectReference>
+
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
