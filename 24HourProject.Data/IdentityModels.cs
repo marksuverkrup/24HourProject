@@ -1,6 +1,12 @@
-﻿using System.Data.Entity;
+<<<<<<< HEAD
+﻿using System;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
+=======
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
 using System.Security.Claims;
 using System.Threading.Tasks;
 using _24HourProject.Data;
@@ -8,7 +14,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace _24HourProject_WebAPI.Models
+namespace _24HourProject.Data
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
