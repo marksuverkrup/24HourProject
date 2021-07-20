@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using _24HourProject.Data;
 using System;
+=======
+﻿using System;
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -54,5 +54,11 @@
     <Compile Include="CommentListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\24HourProject.Data\24HourProject.Data.csproj">
+      <Project>{F7FF9773-4435-4C8C-953F-EC3606E983F5}</Project>
+      <Name>24HourProject.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

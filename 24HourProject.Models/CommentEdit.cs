@@ -8,5 +8,7 @@ namespace _24HourProject.Models
 {
     public class CommentEdit
     {
+        public int Id { get; set; }
+        public string Text { get; set; }
     }
 }

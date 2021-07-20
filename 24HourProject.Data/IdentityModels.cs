@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
+=======
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+>>>>>>> 101803650261a7f09e6d02d734a7fd2a507fb8fa
 using System.Security.Claims;
 using System.Threading.Tasks;
 using _24HourProject.Data;

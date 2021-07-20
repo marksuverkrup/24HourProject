@@ -1,4 +1,5 @@
-﻿using Microsoft.Build.Framework;
+﻿using _24HourProject.Data;
+using Microsoft.Build.Framework;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -14,8 +15,11 @@ namespace _24HourProject.Models
         [Required]
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
         [MaxLength(100, ErrorMessage = "There are too many charcters in this field.")]
-        public string Title { get; set; }
+        public string Text { get; set; }
 
-        public string Content { get; set; }
+        [Required]
+        public Guid AuthorId { get; set; }
+
+        public virtual List<Comment> Replies { get; set; }
     }
 }
