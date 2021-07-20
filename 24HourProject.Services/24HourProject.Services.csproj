@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{52A053C4-4093-4976-AA67-8C1A64D38987}</ProjectGuid>
-    <ProjectGuid>{016337F5-BEB3-406B-BD34-6D1942E7BC6A}</ProjectGuid>
+    <ProjectGuid>{5729B927-9B26-4975-AB41-7C216070FBB0}</ProjectGuid>
+    <ProjectGuid>{BAE577EA-B6B1-4B55-B2F3-16BE3C3F24D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_24HourProject.Models</RootNamespace>
-    <AssemblyName>24HourProject.Models</AssemblyName>
+    <RootNamespace>_24HourProject.Services</RootNamespace>
+    <AssemblyName>24HourProject.Services</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,7 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Build.Framework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,14 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PostCreate.cs" />
-    <Compile Include="PostDetail.cs" />
-    <Compile Include="PostEdit.cs" />
-    <Compile Include="PostList.cs" />
-    <Compile Include="CommentCreate.cs" />
-    <Compile Include="CommentDetail.cs" />
-    <Compile Include="CommentEdit.cs" />
-    <Compile Include="CommentListItem.cs" />
+    <Compile Include="CommentService.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
